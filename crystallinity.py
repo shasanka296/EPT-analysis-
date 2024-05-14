@@ -3,7 +3,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
-
+""" Feel free to chage this in any way you want!
+  """
 trajectory_file = "merged.xtc"
 topology_file = "new_plom.gro"
 u = mda.Universe(topology_file, trajectory_file, in_memory=False)
